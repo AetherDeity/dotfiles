@@ -7,3 +7,6 @@
 ## Specific dot files to ignore ##
 ._*
 .DS_Store
+
+## Never share history ##
+.bash_history
