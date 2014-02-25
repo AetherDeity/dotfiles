@@ -1,12 +1,18 @@
+### Cover Bases ###
 ## Ignore all files ##
 *
 
 ## Except dot files ##
 !/.*
 
-## Specific dot files to ignore ##
+### Specific dot files to ignore ###
+## Mac Files ##
 ._*
 .DS_Store
 
 ## Never share history ##
 .bash_history
+.lesshst
+
+## Misc ##
+.viminfo
