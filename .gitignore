@@ -1,3 +1,9 @@
-**/
+## Ignore all files ##
 *
+
+## Except dot files ##
 !/.*
+
+## Specific dot files to ignore ##
+._*
+.DS_Store
