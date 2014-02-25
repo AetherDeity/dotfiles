@@ -1,0 +1,11 @@
+#Aliases
+
+#ls
+alias ll='ls -alFh'
+alias la='ls -A'
+
+#File manipulations
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias rmr='rm -r -i'
