@@ -1,4 +1,7 @@
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-source .aliases
+for file in exports aliases extra; do
+  file="$HOME/.$file"
+  [ -e "$file" ] && source "$file"
+done
