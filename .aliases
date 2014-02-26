@@ -1,4 +1,4 @@
-#Aliases
+#Aliases stolen from Locker537
 
 #ls
 alias ll='ls -alFh'
