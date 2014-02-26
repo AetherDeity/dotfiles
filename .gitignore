@@ -1,18 +1,24 @@
-### Cover Bases ###
-## Ignore all files ##
+#### Ignore everything ####
 *
 
-## Except dot files ##
-!/.*
+### Dotfiles Whitelist ###
+#/.*
+!/.aliases
+!/.gitconfig
+!/.gitignore
+!/.profile
+!/.slate
+!/.vimrc
 
-### Specific dot files to ignore ###
+
+### Dotfiles Blacklist ###
 ## Mac Files ##
-._*
-.DS_Store
+#._*
+#.DS_Store
 
-## Never share history ##
-.bash_history
-.lesshst
+## Dont share history ##
+#.bash_history
+#.lesshst
 
 ## Misc ##
-.viminfo
+#.viminfo
