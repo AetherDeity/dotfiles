@@ -27,6 +27,7 @@ alias 2-left  move screenOriginX;screenOriginY                               scr
 alias 2-right move screenOriginX+screenSizeX/2;screenOriginY                 screenSizeX/2;screenSizeY       ${mon-thunderbolt}
 alias 2-lft-l move screenOriginX;screenOriginY                               screenSizeX/3;screenSizeY       ${mon-thunderbolt}
 alias 2-rit-r move screenOriginX+2*screenSizeX/3;screenOriginY               screenSizeX/3;screenSizeY       ${mon-thunderbolt}
+alias 2-full  move screenOriginX;screenOriginY                               screenSizeX;screenSizeY         ${mon-thunderbolt}
 alias 3-l-bot move screenOriginX;screenOriginY+screenSizeY/2                 screenSizeX/2;screenSizeY/2     ${mon-hp22inch}
 alias 3-l-top move screenOriginX;screenOriginY                               screenSizeX/2;screenSizeY/2     ${mon-hp22inch}
 alias 3-right move screenOriginX+screenSizeX/2;screenOriginY                 screenSizeX/2;screenSizeY       ${mon-hp22inch}
@@ -91,7 +92,7 @@ bind pad8:ctrl ${2-top-m}
 bind pad9:ctrl ${2-top-r}
 bind pad=:ctrl ${2-left}
 bind pad/:ctrl ${2-right}
-bind pad*:ctrl ${3-l-bot}
+bind pad*:ctrl ${2-full}
 bind pad-:ctrl ${2-top}
 bind pad+:ctrl ${2-bot}
 
