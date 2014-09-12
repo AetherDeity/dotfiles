@@ -83,7 +83,7 @@ default 1monitor  resolutions:${mon-laptop}
 # Basic location Bindings
 bind pad0:ctrl ${2-lft-b}}
 bind [:ctrl    ${1-chat}
-#bind pad.:ctrl ${1-main}
+bind pad.:ctrl ${1-main}
 bind ]:ctrl    ${1-main}
 bind pad1:ctrl ${2-bot-l}
 bind pad2:ctrl ${2-bot-m}
@@ -96,7 +96,9 @@ bind pad8:ctrl ${2-top-m}
 bind pad9:ctrl ${2-top-r}
 bind pad=:ctrl ${2-left}
 bind pad/:ctrl ${2-right}
-bind pad.:ctrl ${2-full}
+#bind pad.:ctrl ${2-full}
+bind pad*:ctrl;alt ${2-full}
+bind f19:ctrl ${2-full}
 bind pad-:ctrl ${2-top}
 bind pad+:ctrl ${2-bot}
 bind padClear:ctrl ${2-lft-t}
